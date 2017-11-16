@@ -17,3 +17,11 @@ services:
     volumes:
     - "./data/ethereum:/root/.ethereum"
     network_mode: "host"
+  ipfs:
+    build: ./ipfs
+    ports:
+      - "8080:8080"
+      - "5001:5001"
+      - "4001:4001"
+    volumes:
+      - ./data/ipfs/:/data/ipfs/

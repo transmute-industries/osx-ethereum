@@ -1,0 +1,6 @@
+
+#!/bin/bash 
+
+geth --syncmode light --testnet --rpc --rpcaddr '0.0.0.0'
+
+

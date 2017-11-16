@@ -64,3 +64,9 @@ yarn up --build
 ```
 
 http://localhost:8500/bzz:/theswarm.eth/
+
+Test running services with jest:
+
+```
+yarn test
+```

@@ -20,7 +20,8 @@ These instructions assume you clone this repo into your home folder.
 ```
 cd;
 git clone https://github.com/transmute-industries/osx-ethereum
-
+cd osx-ethereum;
+yarn install
 ```
 
 Manage where your ethereum data will be stored:
